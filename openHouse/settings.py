@@ -82,9 +82,9 @@ WSGI_APPLICATION = 'openHouse.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'temp',
-        'USER': 'test',
-        'PASSWORD': 'test`12',
+        'NAME': 'openhouse',
+        'USER': 'superuser',
+        'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': '5432',
     }
